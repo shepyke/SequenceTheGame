@@ -2,12 +2,12 @@ package controller;
 
 import java.io.IOException;
 import javafx.event.ActionEvent;
+import javafx.scene.control.Button;
+import manager.MainManager;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
@@ -15,71 +15,39 @@ import javafx.stage.Stage;
  *
  * @author Shepyke
  */
-public class MainController{
+public class MainController {
     @FXML
-    private Label exitLabel;
-    
-    @FXML
-    private Button exitButton;
-    
-    @FXML
-    private Button historyButton;
-    
-    @FXML
-    private Button closeButton;
-    
-    @FXML
-    private Button loginMainButton;    
-    
-    @FXML
-    private Stage window;
-    
-    public void exit(ActionEvent event) throws InterruptedException{
-         //exitLabel.setText("Goodbye");
-         Thread.sleep(300);
-         System.exit(0);
+    private Button loginMainButton;
+
+    public void initialize() {
     }
-    
-    public void closeWindow(ActionEvent event){
-        closeButton.setOnAction(e -> window.close());
+
+    public void initManager(final MainManager mainManager) {
+        mainManager.showMain();
     }
-    
-    public void goToRules(ActionEvent event){
-        changeScene("Rules");
+
+    public void exit(ActionEvent event) throws InterruptedException {
+        //exitLabel.setText("Goodbye");
+        Thread.sleep(300);
+        System.exit(0);
     }
-    
-    public void goToHistory(ActionEvent event){
-        changeScene("History");
-    }
-    
-    public void goToGame(ActionEvent event){
-        changeScene("Game");
-    }
-    
-    public void goToLogin(ActionEvent event){
-        changeScene("Login");
-    }
-    
-    private void changeScene(String title){                  
-        Parent root;
-        try {
-            window = new Stage();
+
+    public void goToLogin(ActionEvent event) {
+         try {
+            Parent root = FXMLLoader.load(getClass().getResource("/view/Login.fxml"));
+            Stage window = new Stage();
 
             //can not click out of this window
             window.initModality(Modality.APPLICATION_MODAL);
-            
-            window.setTitle(title);
-            root = FXMLLoader.load(getClass().getResource("/view/" + title + ".fxml"));
+
+            window.setTitle("Login");
             Scene scene = new Scene(root);
-            scene.getStylesheets().add(getClass().getResource("/view/style.css").toExternalForm());       
+            scene.getStylesheets().add(getClass().getResource("/view/style.css").toExternalForm());
             window.setScene(scene);
             window.showAndWait();
-           
+
         } catch (IOException ex) {
             ex.printStackTrace();
         }
-        
-        
-      
     }
 }
