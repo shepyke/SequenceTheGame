@@ -25,6 +25,7 @@ public class Sequence extends Application {
             mainManager.showMain();
              
             primaryStage.setScene(scene);
+            primaryStage.setFullScreen(true);
             primaryStage.show();             
         }catch (Exception e){
             e.printStackTrace();

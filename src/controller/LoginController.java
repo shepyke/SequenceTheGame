@@ -27,7 +27,6 @@ public class LoginController {
         loginButton.setOnAction(e -> {
             String sessionID = authorize();
             if (sessionID != null) {
-                System.out.println("cucclika");
                 loginManager.authenticated(sessionID);
             }
         });

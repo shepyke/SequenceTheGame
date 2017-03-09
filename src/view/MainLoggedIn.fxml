@@ -18,17 +18,17 @@
             <Font name="Bauhaus 93" size="24.0" />
          </font>
       </Button>
-      <Button id="rulesButton" fx:id="rulesButton" alignment="CENTER" contentDisplay="CENTER" layoutX="638.0" layoutY="275.0" mnemonicParsing="false" onAction="#goToRules" stylesheets="@style.css" text="Rules" textAlignment="CENTER">
+      <Button id="rulesButton" fx:id="rulesButton" alignment="CENTER" contentDisplay="CENTER" layoutX="638.0" layoutY="275.0" mnemonicParsing="false" stylesheets="@style.css" text="Rules" textAlignment="CENTER">
          <font>
             <Font name="Bauhaus 93" size="24.0" />
          </font>
       </Button>
-      <Button id="historyButton" fx:id="historyButton" alignment="CENTER" contentDisplay="CENTER" layoutX="632.0" layoutY="350.0" mnemonicParsing="false" onAction="#goToHistory" stylesheets="@style.css" text="History" textAlignment="CENTER">
+      <Button id="historyButton" fx:id="historyButton" alignment="CENTER" contentDisplay="CENTER" layoutX="632.0" layoutY="350.0" mnemonicParsing="false" stylesheets="@style.css" text="History" textAlignment="CENTER">
          <font>
             <Font name="Bauhaus 93" size="24.0" />
          </font>
       </Button>
-      <Button id="exitButton" fx:id="exitButton" alignment="CENTER" contentDisplay="CENTER" layoutX="647.0" layoutY="426.0" mnemonicParsing="false" onAction="#exit" stylesheets="@style.css" text="Exit" textAlignment="CENTER">
+      <Button id="exitButton" fx:id="exitButton" alignment="CENTER" contentDisplay="CENTER" layoutX="647.0" layoutY="426.0" mnemonicParsing="false" stylesheets="@style.css" text="Exit" textAlignment="CENTER">
          <font>
             <Font name="Bauhaus 93" size="24.0" />
          </font>

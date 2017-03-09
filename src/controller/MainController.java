@@ -19,6 +19,8 @@ public class MainController {
     @FXML
     private Button loginMainButton;
     @FXML
+    private Button startButton;
+    @FXML
     private Button rulesButton;
     @FXML
     private Button historyButton;
