@@ -18,36 +18,45 @@ import javafx.stage.Stage;
 public class MainController {
     @FXML
     private Button loginMainButton;
+    @FXML
+    private Button rulesButton;
+    @FXML
+    private Button historyButton;
+    @FXML
+    private Button exitButton;
 
     public void initialize() {
     }
 
     public void initManager(final MainManager mainManager) {
-        mainManager.showMain();
-    }
+        /*loginMainButton.setOnAction(e -> {
+            try {
+                Parent root = FXMLLoader.load(getClass().getResource("/view/Login.fxml"));
+                Stage window = new Stage();
 
-    public void exit(ActionEvent event) throws InterruptedException {
-        //exitLabel.setText("Goodbye");
-        Thread.sleep(300);
-        System.exit(0);
-    }
+                //can not click out of this window
+                window.initModality(Modality.APPLICATION_MODAL);
 
-    public void goToLogin(ActionEvent event) {
-         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/view/Login.fxml"));
-            Stage window = new Stage();
+                window.setTitle("Login");
+                Scene scene = new Scene(root);
+                scene.getStylesheets().add(getClass().getResource("/view/style.css").toExternalForm());
+                window.setScene(scene);
+                window.showAndWait();
 
-            //can not click out of this window
-            window.initModality(Modality.APPLICATION_MODAL);
-
-            window.setTitle("Login");
-            Scene scene = new Scene(root);
-            scene.getStylesheets().add(getClass().getResource("/view/style.css").toExternalForm());
-            window.setScene(scene);
-            window.showAndWait();
-
-        } catch (IOException ex) {
-            ex.printStackTrace();
-        }
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        });*/
+        rulesButton.setOnAction(e -> {
+            mainManager.showRules();
+        });
+        
+        historyButton.setOnAction(e -> {
+            mainManager.showHistory();
+        });
+        
+        exitButton.setOnAction(e -> {
+            System.exit(0);
+        });
     }
 }

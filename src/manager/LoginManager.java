@@ -3,7 +3,6 @@ package manager;
 import controller.LoginController;
 import controller.MainViewController;
 import java.io.IOException;
-import java.util.logging.*;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.*;
 
@@ -37,7 +36,7 @@ public class LoginManager {
     public void showLoginScreen() {
         try {
             FXMLLoader loader = new FXMLLoader(
-                    getClass().getResource("/view/Main.fxml")
+                    getClass().getResource("/view/MainLoggedOut.fxml")
             );
             scene.setRoot((Parent) loader.load());
             LoginController controller
@@ -51,7 +50,7 @@ public class LoginManager {
     private void showMainView(String sessionID) {
         try {
             FXMLLoader loader = new FXMLLoader(
-                    getClass().getResource("/view/Main.fxml")
+                    getClass().getResource("/view/MainLoggedIn.fxml")
             );
             scene.setRoot((Parent) loader.load());
             MainViewController controller

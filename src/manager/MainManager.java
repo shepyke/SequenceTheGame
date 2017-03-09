@@ -13,15 +13,16 @@ import javafx.scene.Scene;
  * @author Shepyke
  */
 public class MainManager {
+
     private Scene scene;
 
     public MainManager(Scene scene) {
         this.scene = scene;
     }
 
-    public void showMain(){
+    public void showMain() {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Main.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/MainLoggedOut.fxml"));
             scene.setRoot((Parent) loader.load());
             MainController controller = loader.<MainController>getController();
             controller.initManager(this);
@@ -29,7 +30,7 @@ public class MainManager {
             ex.printStackTrace();
         }
     }
-    
+    /*
     public void showGame(){
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Main.fxml"));
@@ -40,7 +41,7 @@ public class MainManager {
             ex.printStackTrace();
         }
     }
-    
+    */
     public void showRules(){
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Rules.fxml"));
