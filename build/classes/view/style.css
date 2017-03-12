@@ -20,7 +20,7 @@
     -fx-alignment: center;
     -fx-padding: 10;
     -fx-border-radius: 10;
-    -fx-background-radius: 10;
+    -fx-background-radius: 10;  
 }
 
 .button:hover{
@@ -28,5 +28,9 @@
 }
 
 #exitButton{
-    -fx-alignment: center;
+    
+}
+
+#backButton{
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
 }

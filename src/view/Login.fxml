@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<StackPane prefWidth="231.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+<StackPane prefWidth="231.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
   <children>
     <StackPane>
       <children>
@@ -40,6 +40,11 @@
                            <font>
                               <Font name="Bauhaus 93" size="12.0" />
                            </font></Button>
+                        <Button id="#backButton" fx:id="goBackButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" stylesheets="@style.css" text="Back">
+                           <font>
+                              <Font name="Bauhaus 93" size="12.0" />
+                           </font>
+                        </Button>
               </children>
             </StackPane>
           </children>

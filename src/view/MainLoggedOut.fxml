@@ -32,12 +32,12 @@
             <Font name="Bauhaus 93" size="14.0" />
          </font>
       </Label>
-      <Label fx:id="userName" layoutX="1182.0" layoutY="14.0" prefHeight="15.0" prefWidth="105.0" text="Anonymus" textAlignment="CENTER">
+      <Label fx:id="userName" layoutX="1182.0" layoutY="15.0" prefHeight="15.0" prefWidth="105.0" text="Anonymus" textAlignment="CENTER">
          <font>
             <Font name="Bauhaus 93" size="16.0" />
          </font>
       </Label>
-      <Button id="startButton" fx:id="loginMainButton" alignment="CENTER" contentDisplay="CENTER" layoutX="1142.0" layoutY="54.0" mnemonicParsing="false" stylesheets="@style.css" text="Login" textAlignment="CENTER" textOverrun="CLIP">
+      <Button id="startButton" fx:id="loginButton" alignment="CENTER" contentDisplay="CENTER" layoutX="1210.0" layoutY="38.0" mnemonicParsing="false" stylesheets="@style.css" text="Login" textAlignment="CENTER" textOverrun="CLIP">
          <font>
             <Font name="Bauhaus 93" size="12.0" />
          </font>
