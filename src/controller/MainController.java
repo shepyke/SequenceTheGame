@@ -10,6 +10,7 @@ import javafx.scene.control.Label;
  * @author Shepyke
  */
 public class MainController {
+
     @FXML
     private Label userName;
     @FXML
@@ -32,7 +33,7 @@ public class MainController {
         loginButton.setOnAction(e -> {
             mainManager.showLogin();
         });
-               
+
         rulesButton.setOnAction(e -> {
             mainManager.showRules();
         });
@@ -45,10 +46,10 @@ public class MainController {
             System.exit(0);
         });
     }
-    
-        public void initSessionID(final MainManager mainManager, String sessionID) {
+
+    public void initSessionID(final MainManager mainManager, String sessionID) {
         userName.setText(sessionID);
-        
+
         logoutButton.setOnAction(e -> {
             mainManager.logout();
         });
