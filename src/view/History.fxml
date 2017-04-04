@@ -11,26 +11,26 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" styleClass="history" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HistoryController">
    <children>
-      <Label layoutX="621.0" layoutY="25.0" prefHeight="53.0" prefWidth="128.0" text="History" AnchorPane.bottomAnchor="690.0" AnchorPane.leftAnchor="621.0" AnchorPane.rightAnchor="617.0" AnchorPane.topAnchor="25.0">
+      <Label layoutX="621.0" layoutY="15.0" prefHeight="82.0" prefWidth="128.0" text="History" AnchorPane.bottomAnchor="671.0" AnchorPane.leftAnchor="621.0" AnchorPane.rightAnchor="617.0" AnchorPane.topAnchor="15.0">
          <font>
             <Font name="Bauhaus 93" size="36.0" />
          </font>
       </Label>
-      <TabPane layoutX="8.0" layoutY="86.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.8" prefHeight="605.0" prefWidth="1352.0" tabClosingPolicy="UNAVAILABLE">
+      <TabPane layoutX="19.0" layoutY="108.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.8" prefHeight="566.0" prefWidth="1341.0" tabClosingPolicy="UNAVAILABLE">
          <tabs>
             <Tab text="Overall">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="394.0" prefWidth="605.0">
                      <children>
-                        <TableView layoutX="9.0" layoutY="5.0" prefHeight="582.0" prefWidth="1338.0">
+                        <TableView fx:id="overallTable" editable="true" prefHeight="543.0" prefWidth="1338.0">
                            <columns>
-                              <TableColumn maxWidth="100.0" minWidth="50.0" text="#" />
-                              <TableColumn maxWidth="500.0" minWidth="150.0" prefWidth="350.0" text="Name" />
-                              <TableColumn maxWidth="200.0" minWidth="150.0" prefWidth="150.0" text="Win" />
-                              <TableColumn maxWidth="200.0" minWidth="150.0" prefWidth="150.0" text="Lose" />
-                              <TableColumn maxWidth="200.0" minWidth="150.0" prefWidth="150.0" text="Tie" />
-                              <TableColumn maxWidth="300.0" minWidth="150.0" prefWidth="180.0" text="Scores" />
-                              <TableColumn maxWidth="350.0" minWidth="150.0" prefWidth="275.0" text="Date" />
+                              <TableColumn fx:id="columnPos" maxWidth="100.0" minWidth="50.0" text="#" />
+                              <TableColumn fx:id="columnUserName" maxWidth="500.0" minWidth="150.0" prefWidth="350.0" text="Name" />
+                              <TableColumn fx:id="columnWin" maxWidth="200.0" minWidth="150.0" prefWidth="150.0" text="Win" />
+                              <TableColumn fx:id="columnLose" maxWidth="200.0" minWidth="150.0" prefWidth="150.0" text="Lose" />
+                              <TableColumn fx:id="columnTie" maxWidth="200.0" minWidth="150.0" prefWidth="150.0" text="Tie" />
+                              <TableColumn fx:id="columnScores" maxWidth="300.0" minWidth="150.0" prefWidth="180.0" text="Scores" />
+                              <TableColumn fx:id="columnDate" maxWidth="350.0" minWidth="150.0" prefWidth="275.0" text="Date" />
                            </columns>
                         </TableView>
                      </children>
@@ -41,7 +41,7 @@
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="394.0" prefWidth="605.0">
                      <children>
-                        <TableView layoutX="9.0" layoutY="5.0" prefHeight="582.0" prefWidth="1338.0">
+                        <TableView prefHeight="543.0" prefWidth="1338.0">
                            <columns>
                               <TableColumn maxWidth="100.0" minWidth="50.0" text="#" />
                               <TableColumn maxWidth="500.0" minWidth="150.0" prefWidth="350.0" text="Name" />
@@ -60,7 +60,7 @@
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="394.0" prefWidth="605.0">
                      <children>
-                        <TableView layoutX="9.0" layoutY="5.0" prefHeight="582.0" prefWidth="1338.0">
+                        <TableView prefHeight="543.0" prefWidth="1338.0">
                            <columns>
                               <TableColumn maxWidth="100.0" minWidth="50.0" text="#" />
                               <TableColumn maxWidth="500.0" minWidth="150.0" prefWidth="350.0" text="Name" />
@@ -79,7 +79,7 @@
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="394.0" prefWidth="605.0">
                      <children>
-                        <TableView layoutX="9.0" layoutY="5.0" prefHeight="582.0" prefWidth="1338.0">
+                        <TableView prefHeight="543.0" prefWidth="1338.0">
                            <columns>
                               <TableColumn maxWidth="100.0" minWidth="50.0" text="#" />
                               <TableColumn maxWidth="500.0" minWidth="150.0" prefWidth="350.0" text="Name" />
@@ -96,7 +96,7 @@
             </Tab>
          </tabs>
       </TabPane>
-      <Button fx:id="closeButton" alignment="CENTER" contentDisplay="CENTER" layoutX="598.0" layoutY="711.0" mnemonicParsing="false" text="Go back to Home page" textAlignment="CENTER">
+      <Button fx:id="goBackButton" alignment="CENTER" contentDisplay="CENTER" layoutX="598.0" layoutY="693.0" mnemonicParsing="false" text="Go back to Home page" textAlignment="CENTER">
          <font>
             <Font name="Bauhaus 93" size="14.0" />
          </font>

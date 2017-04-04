@@ -3,6 +3,7 @@ package manager;
 import controller.HistoryController;
 import controller.LoginController;
 import controller.MainController;
+import controller.RegisterController;
 import controller.RulesController;
 import java.io.IOException;
 import javafx.fxml.FXMLLoader;
@@ -53,6 +54,18 @@ public class MainManager {
             ex.printStackTrace();
         }
     }
+    
+    public void showRegister() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Registration.fxml"));
+            scene.setRoot((Parent) loader.load());
+            RegisterController controller = loader.<RegisterController>getController();
+            controller.initManager(this);
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }
+    
     /*
     public void showGame(){
         try {

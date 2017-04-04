@@ -22,7 +22,7 @@
               <children>
                 <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
                 <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-                <TextField fx:id="user" promptText="Use &quot;open&quot; to login" text="open" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                <TextField fx:id="userName" promptText="Use &quot;open&quot; to login" text="open" GridPane.columnIndex="1" GridPane.rowIndex="0" />
                         <PasswordField fx:id="password" promptText="Use &quot;sesame&quot; to login" text="sesame" GridPane.columnIndex="1" GridPane.rowIndex="1" />
               </children>
               <columnConstraints>
@@ -40,7 +40,7 @@
                            <font>
                               <Font name="Bauhaus 93" size="12.0" />
                            </font></Button>
-                        <Button id="#backButton" fx:id="goBackButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" stylesheets="@style.css" text="Back">
+                        <Button id="#backButton" fx:id="goBackButton" alignment="CENTER" mnemonicParsing="false" stylesheets="@style.css" text="Back">
                            <font>
                               <Font name="Bauhaus 93" size="12.0" />
                            </font>

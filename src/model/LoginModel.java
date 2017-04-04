@@ -10,21 +10,22 @@ import java.sql.SQLException;
  * @author Shepyke
  */
 public class LoginModel {
-  Connection connection;
+  SqliteConnection connection;
   
   public LoginModel(){
-      connection = SqliteConnection.Connector();
+      connection = new SqliteConnection();
       if(connection == null){
           System.exit(1);
       }             
   }
   
   public boolean isDbConnected(){
-      try {
+     /* try {
           return !connection.isClosed();
       } catch (SQLException e) {
           e.printStackTrace();
           return false;
-      }
+      }*/
+     return false;
   }
 }

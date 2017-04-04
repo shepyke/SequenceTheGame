@@ -16,6 +16,8 @@ public class MainController {
     @FXML
     private Button loginButton;
     @FXML
+    private Button signUpButton;
+    @FXML
     private Button logoutButton;
     @FXML
     private Button startButton;
@@ -32,6 +34,10 @@ public class MainController {
     public void initManager(final MainManager mainManager) {
         loginButton.setOnAction(e -> {
             mainManager.showLogin();
+        });
+        
+        signUpButton.setOnAction(e -> {
+            mainManager.showRegister();
         });
 
         rulesButton.setOnAction(e -> {
