@@ -2,13 +2,11 @@ package controller;
 
 import db.Player;
 import db.SqliteConnection;
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.control.cell.PropertyValueFactory;
 import manager.MainManager;
 
 /**
@@ -19,7 +17,7 @@ public class HistoryController {
     @FXML
     private Button goBackButton;
     @FXML
-    private TableView<Player> overallTable;
+    private TableView<Player> tableOverall;
     
     @FXML
     private TableColumn<Player, String> columnPos;
@@ -55,6 +53,6 @@ public class HistoryController {
             TableColumn<Player, String> columnTie,
             TableColumn<Player, String> columnScores,
             TableColumn<Player, String> columnDate){
-        //overallTable = connection.getDataForHistory(columnUserName, columnWin, columnLose, columnTie, columnScores, columnDate);
+        //tableOverall = connection.getDataForHistory(columnUserName, columnWin, columnLose, columnTie, columnScores, columnDate);
     }   
 }

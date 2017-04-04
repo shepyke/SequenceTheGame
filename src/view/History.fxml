@@ -22,7 +22,7 @@
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="394.0" prefWidth="605.0">
                      <children>
-                        <TableView fx:id="overallTable" editable="true" prefHeight="543.0" prefWidth="1338.0">
+                        <TableView fx:id="tableOverall" editable="true" prefHeight="543.0" prefWidth="1338.0">
                            <columns>
                               <TableColumn fx:id="columnPos" maxWidth="100.0" minWidth="50.0" text="#" />
                               <TableColumn fx:id="columnUserName" maxWidth="500.0" minWidth="150.0" prefWidth="350.0" text="Name" />
