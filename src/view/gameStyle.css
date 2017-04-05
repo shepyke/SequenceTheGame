@@ -1,0 +1,251 @@
+#body {    
+    -fx-background-image: url("/image/menu_bg.jpg");
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+}
+
+#board {
+    -fx-grid-lines-visible: false;
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-border-radius: 10;
+}
+
+.card {
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3;
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+}
+
+.cardJoker {    
+    -fx-background-image: url("/image/cards/53.png");
+}
+
+.card1 {    
+    -fx-background-image: url("/image/cards/1.png");
+}
+
+.card2 {    
+    -fx-background-image: url("/image/cards/2.png");
+}
+
+.card3 {    
+    -fx-background-image: url("/image/cards/3.png");
+}
+
+.card4 {    
+    -fx-background-image: url("/image/cards/4.png");
+}
+
+.card5 {    
+    -fx-background-image: url("/image/cards/5.png");
+}
+
+.card6 {    
+    -fx-background-image: url("/image/cards/6.png");
+}
+
+.card7 {    
+    -fx-background-image: url("/image/cards/7.png");
+}
+
+.card8 {    
+    -fx-background-image: url("/image/cards/8.png");
+}
+
+.card9 {    
+    -fx-background-image: url("/image/cards/9.png");
+}
+
+.card10 {    
+    -fx-background-image: url("/image/cards/10.png");
+}
+
+.card11 {    
+    -fx-background-image: url("/image/cards/11.png");
+}
+
+.card12 {    
+    -fx-background-image: url("/image/cards/12.png");
+}
+
+.card13 {    
+    -fx-background-image: url("/image/cards/13.png");
+}
+
+.card14 {    
+    -fx-background-image: url("/image/cards/14.png");
+}
+
+.card15 {    
+    -fx-background-image: url("/image/cards/15.png");
+}
+
+.card16 {    
+    -fx-background-image: url("/image/cards/16.png");
+}
+
+.card17 {    
+    -fx-background-image: url("/image/cards/17.png");
+}
+
+.card18 {    
+    -fx-background-image: url("/image/cards/18.png");
+}
+
+.card19 {    
+    -fx-background-image: url("/image/cards/19.png");
+}
+
+.card20 {    
+    -fx-background-image: url("/image/cards/20.png");
+}
+
+.card21 {    
+    -fx-background-image: url("/image/cards/21.png");
+}
+
+.card22 {    
+    -fx-background-image: url("/image/cards/22.png");
+}
+
+.card23 {    
+    -fx-background-image: url("/image/cards/23.png");
+}
+
+.card24 {    
+    -fx-background-image: url("/image/cards/24.png");
+}
+
+.card25 {    
+    -fx-background-image: url("/image/cards/25.png");
+}
+
+.card26 {    
+    -fx-background-image: url("/image/cards/26.png");
+}
+
+.card27 {    
+    -fx-background-image: url("/image/cards/27.png");
+}
+
+.card28 {    
+    -fx-background-image: url("/image/cards/28.png");
+}
+
+.card29 {    
+    -fx-background-image: url("/image/cards/29.png");
+}
+
+.card30 {    
+    -fx-background-image: url("/image/cards/30.png");
+}
+
+.card31 {    
+    -fx-background-image: url("/image/cards/31.png");
+}
+
+.card32 {    
+    -fx-background-image: url("/image/cards/32.png");
+}
+
+.card33 {    
+    -fx-background-image: url("/image/cards/33.png");
+}
+
+.card34 {    
+    -fx-background-image: url("/image/cards/34.png");
+}
+
+.card35 {    
+    -fx-background-image: url("/image/cards/35.png");
+}
+
+.card36 {    
+    -fx-background-image: url("/image/cards/36.png");
+}
+
+.card37 {    
+    -fx-background-image: url("/image/cards/37.png");
+}
+
+.card38 {    
+    -fx-background-image: url("/image/cards/38.png");
+}
+
+.card39 {    
+    -fx-background-image: url("/image/cards/39.png");
+}
+
+.card40 {    
+    -fx-background-image: url("/image/cards/40.png");
+}
+
+.card41 {    
+    -fx-background-image: url("/image/cards/41.png");
+}
+
+.card42 {    
+    -fx-background-image: url("/image/cards/42.png");
+}
+
+.card43 {    
+    -fx-background-image: url("/image/cards/43.png");
+}
+
+.card44 {    
+    -fx-background-image: url("/image/cards/44.png");
+}
+
+.card45 {    
+    -fx-background-image: url("/image/cards/45.png");
+}
+
+.card46 {    
+    -fx-background-image: url("/image/cards/46.png");
+}
+
+.card47 {    
+    -fx-background-image: url("/image/cards/47.png");
+}
+
+.card48 {    
+    -fx-background-image: url("/image/cards/48.png");
+}
+
+.card49 {    
+    -fx-background-image: url("/image/cards/49.png");
+}
+
+.card50 {    
+    -fx-background-image: url("/image/cards/50.png");
+}
+
+.card51 {    
+    -fx-background-image: url("/image/cards/51.png");
+}
+
+.card52 {    
+    -fx-background-image: url("/image/cards/52.png");
+}
+
+.button{
+    -fx-alignment: center;
+    -fx-padding: 10;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;  
+}
+
+.button:hover{
+    -fx-background-color: rgba(0,0,180,0.7);
+}
+
+#exitButton{
+
+}
+
+#backButton{
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="body" maxHeight="768.0" maxWidth="1366.0" minHeight="768.0" minWidth="1366.0" prefHeight="768.0" prefWidth="1366.0" stylesheets="@gameStyle.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GameController">
+   <children>
+      <VBox alignment="TOP_RIGHT" prefHeight="768.0" prefWidth="1366.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <GridPane fx:id="gridUserName" alignment="TOP_RIGHT" minHeight="30.0" prefHeight="30.0" prefWidth="1366.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="900.0" minWidth="10.0" prefWidth="900.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="150.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Button fx:id="goBackButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Go back to Home page" textAlignment="CENTER">
+                     <font>
+                        <Font name="Bauhaus 93" size="14.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Label text="Username: " GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Bauhaus 93" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="userName" prefHeight="15.0" prefWidth="105.0" text="Anonymus" textAlignment="CENTER" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Bauhaus 93" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+            <BorderPane prefHeight="878.0" prefWidth="1550.0">
+               <center>
+                  <GridPane id="board" fx:id="gridBoard" alignment="CENTER" gridLinesVisible="true" hgap="2.0" prefHeight="530.0" prefWidth="1010.0" stylesheets="@gameStyle.css" vgap="2.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="cardJoker" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="1">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card35" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="2">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card34" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="3">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card33" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="4">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card32" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="5">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card31" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="6">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card30" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="7">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card29" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="8">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card28" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="9">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="cardJoker" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card36" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card23" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card25" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card26" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card14" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card2" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card3" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card4" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card5" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card6" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card38" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card22" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card46" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card45" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card44" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card43" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card42" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card41" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card27" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card7" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card39" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card21" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card47" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card2" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card3" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card4" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card5" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card6" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card39" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card8" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card27" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card20" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card48" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card14" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card17" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card18" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card19" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card7" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="8">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card38" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card9" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card41" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card19" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card49" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card26" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card16" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card15" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card20" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card8" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="8">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card36" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card10" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card42" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card18" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card51" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card25" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card23" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card22" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card21" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card9" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="8">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card35" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card12" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card43" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card17" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card52" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card40" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card1" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card13" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card12" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card10" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="8">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card34" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card13" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card44" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card16" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card15" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="3">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card28" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card29" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card30" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card31" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card32" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="8">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card33" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card1" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="cardJoker" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9" GridPane.rowIndex="1">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card45" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9" GridPane.rowIndex="2">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card46" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9" GridPane.rowIndex="3">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card47" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9" GridPane.rowIndex="4">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card48" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9" GridPane.rowIndex="5">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card49" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9" GridPane.rowIndex="6">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card51" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9" GridPane.rowIndex="7">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card52" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9" GridPane.rowIndex="8">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="card40" />
+                           </styleClass></Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                           <styleClass>
+                              <String fx:value="card" />
+                              <String fx:value="cardJoker" />
+                           </styleClass></Pane>
+                     </children>
+                  </GridPane>
+               </center>
+               <top>
+                  <Pane prefHeight="72.0" prefWidth="1366.0" BorderPane.alignment="CENTER" />
+               </top>
+               <right>
+                  <Pane prefHeight="446.0" prefWidth="150.0" BorderPane.alignment="CENTER" />
+               </right>
+               <bottom>
+                  <Pane prefHeight="122.0" prefWidth="1366.0" BorderPane.alignment="CENTER" />
+               </bottom>
+               <left>
+                  <Pane prefHeight="446.0" prefWidth="150.0" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+         </children>
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

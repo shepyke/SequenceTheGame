@@ -1,5 +1,6 @@
 package manager;
 
+import controller.GameController;
 import controller.HistoryController;
 import controller.LoginController;
 import controller.MainController;
@@ -65,19 +66,18 @@ public class MainManager {
             ex.printStackTrace();
         }
     }
-    
-    /*
+        
     public void showGame(){
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Main.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Game.fxml"));
             scene.setRoot((Parent) loader.load());
-            MainController controller = loader.<MainController>getController();
+            GameController controller = loader.<GameController>getController();
             controller.initManager(this);
         } catch (IOException ex) {
             ex.printStackTrace();
         }
     }
-    */
+    
     public void showRules(){
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Rules.fxml"));

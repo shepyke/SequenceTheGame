@@ -1,8 +1,7 @@
 .main {    
     -fx-background-image: url("/image/menu_bg.jpg");
     -fx-background-position: center center;
-    width: 100%;
-    height: 100%;
+    -fx-background-size: stretch;
 }
 
 .history {    
@@ -14,6 +13,7 @@
     -fx-background-image: url("/image/rules_bg.jpg");
     -fx-background-position: center center;
     -fx-background-size: cover;
+    -fx-background-size: stretch;
 }
 
 .button{

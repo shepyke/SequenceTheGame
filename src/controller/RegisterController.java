@@ -2,7 +2,6 @@ package controller;
 
 import db.SqliteConnection;
 import java.util.UUID;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import manager.MainManager;

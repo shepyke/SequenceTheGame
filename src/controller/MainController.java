@@ -39,6 +39,10 @@ public class MainController {
         signUpButton.setOnAction(e -> {
             mainManager.showRegister();
         });
+        
+        startButton.setOnAction(e -> {
+            mainManager.showGame();
+        });
 
         rulesButton.setOnAction(e -> {
             mainManager.showRules();
