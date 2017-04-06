@@ -11,6 +11,8 @@ import manager.MainManager;
  * @author Shepyke
  */
 public class Sequence extends Application {
+    public static final int CARD_SIZE = 100;
+    
     public static void main(String[] args) {
         launch(args);
     }

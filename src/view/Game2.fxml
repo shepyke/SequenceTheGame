@@ -46,133 +46,133 @@
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Pane fx:id="card53" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css">
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="cardJoker" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card35" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="1">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="1">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card35" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card34" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="2">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="2">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card34" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card33" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="3">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="3">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card33" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card32" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="4">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="4">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card32" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card31" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="5">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="5">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card31" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card30" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="6">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="6">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card30" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card29" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="7">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="7">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card29" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card28" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="8">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="8">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card28" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card53" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="9">
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.rowIndex="9">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="cardJoker" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card36" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card36" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card23" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card23" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card25" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card25" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card26" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="3">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card26" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card14" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="4">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card14" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card2" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="5">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card2" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card3" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="6">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card3" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card4" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="7">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card4" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card5" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="8">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card5" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card6" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="1" GridPane.rowIndex="9">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card6" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card38" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card38" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card22" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="1">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card22" />
@@ -220,19 +220,19 @@
                               <String fx:value="card27" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card7" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="2" GridPane.rowIndex="9">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card7" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card39" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card39" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card21" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="1">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card21" />
@@ -244,31 +244,31 @@
                               <String fx:value="card47" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card55" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="3">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card2" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card56" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="4">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card3" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card57" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="5">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card4" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card58" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="6">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card5" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card59" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="7">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card6" />
@@ -280,19 +280,19 @@
                               <String fx:value="card39" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card8" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="3" GridPane.rowIndex="9">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card8" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card27" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card27" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card20" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="1">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card20" />
@@ -304,7 +304,7 @@
                               <String fx:value="card48" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card67" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="3">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card14" />
@@ -328,7 +328,7 @@
                               <String fx:value="card19" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card60" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="7">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card7" />
@@ -340,7 +340,7 @@
                               <String fx:value="card38" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card9" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="4" GridPane.rowIndex="9">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card9" />
@@ -352,7 +352,7 @@
                               <String fx:value="card41" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card19" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="1">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card19" />
@@ -376,7 +376,7 @@
                               <String fx:value="card16" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card68" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="5">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card15" />
@@ -388,7 +388,7 @@
                               <String fx:value="card20" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card61" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="7">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card8" />
@@ -400,7 +400,7 @@
                               <String fx:value="card36" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card10" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="5" GridPane.rowIndex="9">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card10" />
@@ -412,7 +412,7 @@
                               <String fx:value="card42" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card18" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="1">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card18" />
@@ -448,7 +448,7 @@
                               <String fx:value="card21" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card62" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="7">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card9" />
@@ -460,7 +460,7 @@
                               <String fx:value="card35" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card12" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="6" GridPane.rowIndex="9">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card12" />
@@ -472,7 +472,7 @@
                               <String fx:value="card43" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card17" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="1">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card17" />
@@ -490,25 +490,25 @@
                               <String fx:value="card40" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card54" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="4">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card1" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card66" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="5">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card13" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card65" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="6">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card12" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card63" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="7">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card10" />
@@ -520,7 +520,7 @@
                               <String fx:value="card34" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card13" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="7" GridPane.rowIndex="9">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card13" />
@@ -532,13 +532,13 @@
                               <String fx:value="card44" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card16" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="1">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card16" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card15" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="2">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card15" />
@@ -580,13 +580,13 @@
                               <String fx:value="card33" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card1" onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                        <Pane onContextMenuRequested="#showContextMenu" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="8" GridPane.rowIndex="9">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="card1" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card53" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9">
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="cardJoker" />
@@ -640,7 +640,7 @@
                               <String fx:value="card40" />
                            </styleClass>
                         </Pane>
-                        <Pane fx:id="card53" prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                        <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@gameStyle.css" GridPane.columnIndex="9" GridPane.rowIndex="9">
                            <styleClass>
                               <String fx:value="card" />
                               <String fx:value="cardJoker" />
@@ -650,31 +650,31 @@
                   </GridPane>
                </center>
                <top>
-                  <Pane prefHeight="72.0" prefWidth="1366.0" BorderPane.alignment="CENTER">
+                  <Pane fx:id="frontOpponent" prefHeight="72.0" prefWidth="1366.0" BorderPane.alignment="CENTER">
                      <children>
                         <HBox alignment="CENTER" layoutX="174.0" layoutY="-8.0" prefHeight="64.0" prefWidth="425.0">
                            <children>
-                              <Pane maxHeight="80.0" maxWidth="60.0" minHeight="80.0" minWidth="60.0" prefHeight="80.0" prefWidth="60.0" styleClass="cardOpponentUp" stylesheets="@gameStyle.css">
+                              <Pane maxHeight="130.0" maxWidth="90.0" minHeight="130.0" minWidth="90.0" prefHeight="130.0" prefWidth="90.0" styleClass="cardOpponentUp" stylesheets="@gameStyle.css">
                                  <HBox.margin>
                                     <Insets left="5.0" right="5.0" />
                                  </HBox.margin>
                               </Pane>
-                              <Pane maxHeight="80.0" maxWidth="60.0" minHeight="80.0" minWidth="60.0" prefHeight="80.0" prefWidth="60.0" styleClass="cardOpponentUp" stylesheets="@gameStyle.css">
+                              <Pane maxHeight="130.0" maxWidth="90.0" minHeight="130.0" minWidth="90.0" prefHeight="130.0" prefWidth="90.0" styleClass="cardOpponentUp" stylesheets="@gameStyle.css">
                                  <HBox.margin>
                                     <Insets left="5.0" right="5.0" />
                                  </HBox.margin>
                               </Pane>
-                              <Pane maxHeight="80.0" maxWidth="60.0" minHeight="80.0" minWidth="60.0" prefHeight="80.0" prefWidth="60.0" styleClass="cardOpponentUp" stylesheets="@gameStyle.css">
+                              <Pane maxHeight="130.0" maxWidth="90.0" minHeight="130.0" minWidth="90.0" prefHeight="130.0" prefWidth="90.0" styleClass="cardOpponentUp" stylesheets="@gameStyle.css">
                                  <HBox.margin>
                                     <Insets left="5.0" right="5.0" />
                                  </HBox.margin>
                               </Pane>
-                              <Pane maxHeight="80.0" maxWidth="60.0" minHeight="80.0" minWidth="60.0" prefHeight="80.0" prefWidth="60.0" styleClass="cardOpponentUp" stylesheets="@gameStyle.css">
+                              <Pane maxHeight="130.0" maxWidth="90.0" minHeight="130.0" minWidth="90.0" prefHeight="130.0" prefWidth="90.0" styleClass="cardOpponentUp" stylesheets="@gameStyle.css">
                                  <HBox.margin>
                                     <Insets left="5.0" right="5.0" />
                                  </HBox.margin>
                               </Pane>
-                              <Pane maxHeight="80.0" maxWidth="60.0" minHeight="80.0" minWidth="60.0" prefHeight="80.0" prefWidth="60.0" styleClass="cardOpponentUp" stylesheets="@gameStyle.css">
+                              <Pane maxHeight="130.0" maxWidth="90.0" minHeight="130.0" minWidth="90.0" prefHeight="130.0" prefWidth="90.0" styleClass="cardOpponentUp" stylesheets="@gameStyle.css">
                                  <HBox.margin>
                                     <Insets left="5.0" right="5.0" />
                                  </HBox.margin>
@@ -685,7 +685,7 @@
                   </Pane>
                </top>
                <right>
-                  <Pane prefHeight="446.0" prefWidth="150.0" BorderPane.alignment="CENTER">
+                  <Pane fx:id="rightOpponent" prefHeight="446.0" prefWidth="150.0" BorderPane.alignment="CENTER">
                      <children>
                         <VBox layoutX="3.0" layoutY="53.0" maxHeight="422.0" maxWidth="145.0" minHeight="360.0" minWidth="145.0" prefHeight="422.0" prefWidth="145.0">
                            <children>
@@ -786,7 +786,7 @@
                   </Pane>
                </bottom>
                <left>
-                  <Pane prefHeight="446.0" prefWidth="150.0" BorderPane.alignment="CENTER">
+                  <Pane fx:id="leftOpponent" prefHeight="446.0" prefWidth="150.0" BorderPane.alignment="CENTER">
                      <children>
                         <VBox layoutX="3.0" layoutY="53.0" maxHeight="422.0" maxWidth="145.0" minHeight="360.0" minWidth="145.0" prefHeight="422.0" prefWidth="145.0">
                            <children>

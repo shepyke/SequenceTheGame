@@ -12,7 +12,22 @@ public class DeckOfCards {
     private ArrayList<Integer> deckList = new ArrayList<>();
     int[] fiveCards = new int[5];
 
-    public void chooseFive(int[] fiveCards) {
+    public DeckOfCards(){
+        store52Numbers();
+        shuffleCards();
+    }
+
+    public int getNext(){
+        int size = deckList.size()-1 >= 0 ? deckList.size()-1 : -1;
+        if (size >= 0){
+            int topCard = deckList.get(size);
+            deckList.remove(size);
+            return topCard;
+        }
+        return -1;
+    }
+    
+    public int[] chooseFive() {
         Random rand = new Random();
         int num;
         int index = 0;
@@ -23,21 +38,16 @@ public class DeckOfCards {
             deckList.remove(num);
             index++;
         }
+        return fiveCards;
     }
 
-    public void store52Numbers() {
+    private void store52Numbers() {
         for (int i = 0; i < 52; ++i) {
             deckList.add(i + 1);
         }
     }
     
-    public void displayNum(int[] fiveCards){
-        for(int i=0; i < fiveCards.length; ++i){
-            System.out.println(fiveCards[i]);
-        }
-    }
-    
-    public void shuffleCards(){
+    private void shuffleCards(){
         Collections.shuffle(deckList);
     }
 }

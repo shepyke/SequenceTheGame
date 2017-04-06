@@ -7,8 +7,43 @@
 #board {
     -fx-grid-lines-visible: false;
     -fx-border-color: black;
-    -fx-border-width: 5px;
+    -fx-border-width: 2px;
     -fx-border-radius: 10;
+}
+
+#deck {
+    -fx-background-image: url("/image/cards/back.png");
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5;
+}
+
+.cardOwn {
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3;
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+}
+
+.cardOpponent {
+    -fx-background-image: url("/image/cards/back.png");
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3;
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+}
+
+.cardOpponentUp {
+    -fx-background-image: url("/image/cardsUp/back.png");
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3;
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
 }
 
 .card {
